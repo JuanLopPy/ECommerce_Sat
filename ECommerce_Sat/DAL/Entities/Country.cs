@@ -12,3 +12,4 @@ namespace ECommerce_Sat.DAL.Entities
 
     }
 }
+ 
