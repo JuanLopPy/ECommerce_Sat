@@ -9,9 +9,9 @@ namespace ECommerce_Sat.DAL.Entities
 
 
         [Display (Name =("Fecha de creación"))]
-        public virtual String? CreateDate { get; set; }
+        public virtual DateTime CreateDate { get; set; }
 
         [Display(Name = ("Fecha de modificación"))]
-        public virtual String? ModifiedDate { get; set; }
+        public virtual DateTime ModifiedDate { get; set; }
     }
 }
